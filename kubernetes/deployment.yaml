@@ -4,8 +4,7 @@ metadata:
   name: ecsdemo-frontend
   labels:
     app: ecsdemo-frontend
-  namespace: default
-spec:
+  spec:
   replicas: 1
   selector:
     matchLabels:
