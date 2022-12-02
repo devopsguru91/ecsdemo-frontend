@@ -4,7 +4,7 @@ metadata:
   name: ecsdemo-frontend
   labels:
     app: ecsdemo-frontend
-  spec:
+spec:
    replicas: 1
    selector:
      matchLabels:
